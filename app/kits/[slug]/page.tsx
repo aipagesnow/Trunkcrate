@@ -1,12 +1,11 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { AddToCartButton } from "@/components/AddToCartButton";
+import { ProductImage } from "@/components/ProductImage";
 import { ProductCard } from "@/components/ProductCard";
 import { formatUsd } from "@/lib/format";
 import { getAllKitSlugs, getKit } from "@/lib/kits";
-import { getKitImagePath } from "@/lib/product-images";
 import { getIncludedProducts, getProduct } from "@/lib/products";
 
 type Props = {
@@ -46,16 +45,12 @@ export default async function KitPage({ params }: Props) {
       </nav>
 
       <div className="mt-8 grid gap-10 md:grid-cols-[1.15fr_1fr] md:items-start">
-        <div className="relative aspect-[16/10] overflow-hidden rounded-md border border-border bg-accent-soft">
-          <Image
-            src={getKitImagePath(kit.slug)}
-            alt={kit.name}
-            fill
-            priority
-            sizes="(max-width: 768px) 100vw, 55vw"
-            className="object-cover object-center"
-          />
-        </div>
+        <ProductImage
+          slug={kit.slug}
+          name={kit.name}
+          className="aspect-[16/10]"
+          priority
+        />
         <div>
           <p className="text-[11px] font-semibold uppercase tracking-[0.14em] text-accent">
             Starter kit

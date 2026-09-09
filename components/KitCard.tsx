@@ -1,7 +1,6 @@
-import Image from "next/image";
 import Link from "next/link";
+import { ProductImage } from "@/components/ProductImage";
 import { formatUsd } from "@/lib/format";
-import { getKitImagePath } from "@/lib/product-images";
 import { getIncludedProducts } from "@/lib/products";
 import type { Kit } from "@/lib/types";
 
@@ -22,16 +21,18 @@ export function KitCard({
       }`}
     >
       <div
-        className={`relative overflow-hidden bg-accent-soft ${
-          featured ? "aspect-[16/10] md:aspect-auto md:min-h-[16rem]" : "aspect-[16/10]"
+        className={`${
+          featured ? "md:min-h-[16rem]" : ""
         }`}
       >
-        <Image
-          src={getKitImagePath(kit.slug)}
-          alt={kit.name}
-          fill
-          sizes={featured ? "(max-width: 768px) 100vw, 50vw" : "(max-width: 768px) 100vw, 33vw"}
-          className="object-cover object-center transition duration-500 group-hover:scale-[1.02] motion-reduce:transition-none motion-reduce:group-hover:scale-100"
+        <ProductImage
+          slug={kit.slug}
+          name={kit.name}
+          className={
+            featured
+              ? "aspect-[16/10] rounded-none border-0 md:aspect-auto md:h-full md:min-h-[16rem]"
+              : "aspect-[16/10] rounded-none border-0"
+          }
         />
       </div>
       <div className="flex flex-col justify-center p-5 sm:p-6">
