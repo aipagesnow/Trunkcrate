@@ -23,3 +23,13 @@ See `lib/product-image-map.json` — only clean / generic-but-ok shots.
 - trunk-hook-pair, folding-picnic-blanket (4monster), kid-seat-tidy
 
 Raw supplier files may still sit under `public/images/products/` for Ops reference; they are not linked from the map.
+
+## Clean gallery rescues (2026-09-09)
+
+Pulled from Exact AE product galleries (no watermark/dims):
+
+- camping-boot-bag
+- multi-bay-lid-organizer
+- folding-camp-crate (+ camping-boot-kit)
+
+Remaining scrubbed SKUs still placeholder — Exact supplier frames are watermarked/annotated only. Need Near remap to clean listings or lifestyle shoots.
