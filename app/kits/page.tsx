@@ -20,8 +20,8 @@ export default function KitsPage() {
         page. You can still buy every piece on its own from the shop.
       </p>
       <div className="mt-10 grid gap-5">
-        {kits.map((kit, i) => (
-          <KitCard key={kit.slug} kit={kit} featured={i < 2} />
+        {kits.map((kit) => (
+          <KitCard key={kit.slug} kit={kit} featured />
         ))}
       </div>
     </div>

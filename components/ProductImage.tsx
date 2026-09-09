@@ -19,7 +19,10 @@ export function ProductImage({
 }: Props) {
   const src = resolveCatalogImagePath(slug);
   const label = name || slug;
-  const objectClass = fit === "contain" ? "object-contain object-center p-3" : "object-cover object-center";
+  const objectClass =
+    fit === "contain"
+      ? "object-contain object-center p-4"
+      : "object-cover object-center";
 
   if (!src) {
     return (
@@ -47,7 +50,7 @@ export function ProductImage({
         src={src}
         alt={label}
         fill
-        sizes="(max-width: 768px) 100vw, 33vw"
+        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 40vw"
         className={objectClass}
         priority={priority}
       />
