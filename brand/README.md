@@ -1,13 +1,13 @@
-# Trunk Crate brand lock — Hatch Latch
+# Trunk Crate brand lock — Open Crate
 
-**Mark:** Option A Hatch Latch (locked 2026-09-09)
+**Mark:** Option B Open Crate (locked 2026-09-09 — corrected from Hatch Latch)
 **Wordmark:** Archivo or Barlow Semi Condensed 700, title case, tracking −0.02em
 
 ## Tokens
 | Token | Hex | Use |
 |---|---|---|
 | Asphalt | `#1A1C1E` | Mark stroke, wordmark, body ink |
-| Steel | `#3D6B8C` | Latch accent, links, small UI chrome |
+| Steel | `#3D6B8C` | Rivet accents, links, small UI chrome |
 | Cool ground | `#F2F1EE` | Page / apple-touch / OG ground |
 
 Not Cubbi cream/sage. Not Aivora copper.
@@ -20,11 +20,11 @@ Copy from `drop-into-app/` → `app/`:
 
 Copy from `drop-into-public/` → `public/`:
 - `apple-touch-icon.png` (180)
-- `og-default.png` (1200×630 preview — wire or replace with `opengraph-image`)
+- `og-default.png` (1200×630)
 
 ## Source
-- `svg/hatch-latch.svg` — colour mark
-- `svg/hatch-latch-mono.svg` — mono mark (checkout / favicon)
+- `svg/open-crate.svg` / `svg/mark.svg` — colour mark
+- `svg/open-crate-mono.svg` / `svg/mark-mono.svg` — mono
 - `svg/lockup-header.svg` — mark + wordmark
 - `png/checkout-mono-32.png` / `checkout-mono-180.png` — Shopify checkout
 - `png/header-mark-colour-180.png` — colour header mark
