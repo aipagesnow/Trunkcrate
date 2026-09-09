@@ -26,7 +26,7 @@ export default function HomePage() {
               Start with a kit
             </h2>
             <p className="mt-2 text-sm leading-relaxed text-muted">
-              Four loads we see most: a weekend overnight, a camp trailhead, a
+              Four common loads: a weekend overnight, a camp trailhead, a
               family road trip, and the hatch you use every week. Each kit is a
               set you can buy together, then add or skip pieces later.
             </p>
