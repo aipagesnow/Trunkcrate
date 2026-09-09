@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Archivo, IBM_Plex_Sans } from "next/font/google";
+import { Barlow_Semi_Condensed, IBM_Plex_Sans } from "next/font/google";
 import { CartDrawer } from "@/components/cart/CartDrawer";
 import { CartToast } from "@/components/cart/CartToast";
 import { CartProvider } from "@/components/cart/CartProvider";
@@ -8,7 +8,7 @@ import { Header } from "@/components/Header";
 import { site } from "@/lib/site";
 import "./globals.css";
 
-const display = Archivo({
+const display = Barlow_Semi_Condensed({
   variable: "--font-display",
   subsets: ["latin"],
   weight: ["600", "700"],

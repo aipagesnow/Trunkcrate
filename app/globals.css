@@ -39,17 +39,15 @@ body {
 }
 
 .font-display {
-  font-family: var(--font-display), Archivo, "Barlow Semi Condensed",
-    "Arial Narrow", sans-serif;
+  font-family: var(--font-display), "Barlow Semi Condensed", "Arial Narrow", sans-serif;
   font-weight: 700;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.025em;
 }
 
 .site-wordmark {
-  font-family: var(--font-display), Archivo, "Barlow Semi Condensed",
-    "Arial Narrow", sans-serif;
+  font-family: var(--font-display), "Barlow Semi Condensed", "Arial Narrow", sans-serif;
   font-weight: 700;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.025em;
 }
 
 .header-wash {

@@ -4,26 +4,25 @@ import { ArrowRight } from "lucide-react";
 
 export function Hero() {
   return (
-    <section className="relative overflow-hidden border-b border-border">
-      <div className="absolute inset-0">
-        <Image
-          src="/images/hero.jpg"
-          alt="Open hatch with a collapsible trunk organizer, cooler tote, and cargo net holding a camp chair."
-          fill
-          priority
-          sizes="100vw"
-          className="object-cover object-[center_60%]"
-        />
-        <div className="hero-wash absolute inset-0" />
-        <div className="absolute inset-0 bg-gradient-to-t from-background via-background/25 to-transparent md:hidden" />
-      </div>
+    <section className="border-b border-border bg-background">
+      {/* Mobile: stacked photo then title. Desktop: split. */}
+      <div className="mx-auto grid max-w-6xl md:grid-cols-2 md:items-stretch">
+        <div className="relative min-h-[16.5rem] w-full sm:min-h-[20rem] md:min-h-[32rem] md:order-2">
+          <Image
+            src="/images/hero.jpg"
+            alt="Open hatch with a collapsible trunk organizer, cooler tote, and cargo net holding a camp chair."
+            fill
+            priority
+            sizes="(max-width: 768px) 100vw, 50vw"
+            className="object-cover object-[center_55%]"
+          />
+        </div>
 
-      <div className="relative mx-auto flex min-h-[28rem] max-w-6xl flex-col justify-end px-4 py-14 sm:min-h-[32rem] sm:px-6 md:min-h-[36rem] md:justify-center md:py-24">
-        <div className="max-w-xl rounded-md bg-background/80 p-5 backdrop-blur-sm sm:p-7 md:bg-background/75">
-          <p className="text-[0.75rem] font-semibold uppercase tracking-[0.16em] text-accent">
+        <div className="flex flex-col justify-center px-4 py-8 sm:px-6 sm:py-10 md:order-1 md:px-8 md:py-16 lg:px-10">
+          <p className="text-[0.7rem] font-semibold uppercase tracking-[0.18em] text-accent sm:text-[0.75rem]">
             Starter kits for the hatch
           </p>
-          <h1 className="font-display mt-3 text-balance text-[2.15rem] leading-[1.15] text-foreground sm:text-[3rem] md:text-[3.35rem]">
+          <h1 className="font-display mt-3 text-balance text-[2.35rem] leading-[1.08] tracking-[-0.03em] text-foreground sm:text-[3.1rem] md:text-[3.4rem] md:leading-[1.05]">
             Keep the boot usable for the trips you actually&nbsp;take
           </h1>
           <p className="mt-4 max-w-md text-[1.05rem] leading-relaxed text-muted">
