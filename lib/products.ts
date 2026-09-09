@@ -1,5 +1,6 @@
 import { kits } from "./kits";
 import type { Kit, Product, ProductGroup } from "./types";
+import { resolveCatalogImagePath } from "@/lib/product-images";
 
 export const groupLabels: Record<ProductGroup, string> = {
   crates: "Crates",
@@ -665,6 +666,35 @@ export function getShopProducts(): Product[] {
 
 export function getFeaturedProducts(): Product[] {
   return products.filter((p) => p.featured);
+}
+
+/** Home “Shop individual pieces” — unique photos vs kit cards above. */
+export function getHomeFeaturedProducts(limit = 8): Product[] {
+  const used = new Set<string>();
+  for (const kit of kits) {
+    const path = resolveCatalogImagePath(kit.slug);
+    if (path) used.add(path);
+  }
+
+  const picked: Product[] = [];
+  const tryAdd = (p: Product) => {
+    if (picked.some((x) => x.slug === p.slug)) return false;
+    const path = resolveCatalogImagePath(p.slug);
+    if (!path || used.has(path)) return false;
+    used.add(path);
+    picked.push(p);
+    return true;
+  };
+
+  for (const p of products.filter((p) => p.featured)) {
+    if (picked.length >= limit) break;
+    tryAdd(p);
+  }
+  for (const p of products) {
+    if (picked.length >= limit) break;
+    tryAdd(p);
+  }
+  return picked;
 }
 
 export function getProductsByGroup(group: ProductGroup): Product[] {

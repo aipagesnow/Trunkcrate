@@ -4,7 +4,7 @@ import { Hero } from "@/components/Hero";
 import { KitCard } from "@/components/KitCard";
 import { ProductCard } from "@/components/ProductCard";
 import { kits } from "@/lib/kits";
-import { getFeaturedProducts } from "@/lib/products";
+import { getHomeFeaturedProducts } from "@/lib/products";
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 };
 
 export default function HomePage() {
-  const featured = getFeaturedProducts().slice(0, 8);
+  const featured = getHomeFeaturedProducts(8);
 
   return (
     <>
