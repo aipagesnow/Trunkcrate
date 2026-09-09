@@ -69,7 +69,8 @@ export default async function KitPage({ params }: Props) {
             {formatUsd(kitPrice)}
           </p>
           <p className="mt-1 text-sm text-muted">
-            Price of the {included.length} pieces added to your cart.
+            Same total as buying the {included.length} pieces separately — the
+            kit is the shopping list for this load.
           </p>
           <p className="mt-5 text-base leading-relaxed text-foreground">
             {kit.scenario}

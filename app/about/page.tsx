@@ -49,10 +49,9 @@ export default function AboutPage() {
         </p>
         <p>
           Orders ship from partner warehouses. Typical delivery is about 5–12
-          days. Some parcels come from overseas partners when that is the stock
-          we can map. Unused items in original packaging may be returned within
-          the window on our shipping page. Email us if you need help with an
-          order.
+          days. Some parcels come from overseas when that is where the stock is.
+          Unused items in original packaging may be returned within the window
+          on our shipping page. Email us if you need help with an order.
         </p>
       </div>
       <div className="mt-8 flex flex-wrap gap-3">

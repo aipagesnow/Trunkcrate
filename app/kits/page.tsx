@@ -15,9 +15,9 @@ export default function KitsPage() {
         Starter kits
       </h1>
       <p className="mt-3 max-w-2xl text-base leading-relaxed text-muted">
-        A kit is a set we would actually put in one hatch: the pieces that share
-        a load, not a random bundle. Open sizes and what fails are on each kit
-        page. You can still buy every piece on its own from the shop.
+        A kit groups the pieces that share one hatch load — not a random bundle.
+        Open sizes and what fails are on each kit page. You can still buy every
+        piece on its own from the shop.
       </p>
       <div className="mt-10 grid gap-5">
         {kits.map((kit) => (

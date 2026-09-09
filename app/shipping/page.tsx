@@ -21,10 +21,9 @@ export default function ShippingPage() {
         <section>
           <h2 className="text-lg font-semibold text-foreground">Shipping</h2>
           <p className="mt-2">
-            We fulfill from partner warehouses. When closer warehouse stock is
-            mapped and available, we prefer that. Otherwise a parcel may ship
-            from an overseas partner. That is why we quote a window instead of
-            next-day promises.
+            Orders ship from partner warehouses. When stock is available closer
+            to you, we prefer that. Otherwise a parcel may ship from an overseas
+            partner. That is why we quote a window instead of next-day promises.
           </p>
           <ol className="mt-5 grid gap-3 sm:grid-cols-3">
             {[
@@ -36,7 +35,7 @@ export default function ShippingPage() {
               {
                 step: "2",
                 title: "Partner warehouse",
-                body: "Closer stock when we can map it; overseas when we cannot.",
+                body: "Closer warehouse when stock allows; overseas when it does not.",
               },
               {
                 step: "3",
