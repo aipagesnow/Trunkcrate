@@ -31,27 +31,7 @@ export const products: Product[] = [
       "Non-slip pads on the base; collapses to about 2 in high",
     ],
   },
-  {
-    id: "tc-02",
-    slug: "fold-flat-boot-crate",
-    name: "Fold-Flat Boot Crate",
-    price: 36,
-    group: "crates",
-    featured: true,
-    shortDescription:
-      "Plastic-panel crate that folds flat and stands up for mixed hatch loads.",
-    scenario:
-      "You need something that can take a wet bag and still fold out of the way on Sunday night.",
-    description:
-      "Hinged plastic panels lock into a crate, then unclip and fold into a slab you can slide behind a seat. It handles bottles and a dirty camp stove better than fabric organizers. The open lattice sides will not hide contents from the rear window, and it will not sit neatly on a steeply sloped sedan floor without a liner underneath.",
-    features: [
-      "About 18 × 14 × 11 in open; folds to a 2 in slab",
-      "Holds bottles, a stove bag, or a folded camp chair",
-      "Lattice sides leak small parts — do not use for screws or trail mix",
-      "Measure hatch height; the crate needs a near-flat cargo floor",
-    ],
-  },
-  {
+    {
     id: "tc-03",
     slug: "hatch-cargo-net",
     name: "Hatch Cargo Net",
@@ -226,26 +206,7 @@ export const products: Product[] = [
       "Keep it off belt paths and out of airbag zones",
     ],
   },
-  {
-    id: "tc-12",
-    slug: "insulated-food-tote",
-    name: "Insulated Food Tote",
-    price: 30,
-    group: "coolers",
-    shortDescription:
-      "Taller insulated tote for a casserole, sandwiches, or the cold grocery bag.",
-    scenario:
-      "A dish for a potluck has to ride upright and not sweat onto the seat.",
-    description:
-      "Taller than the soft cooler tote, with a zip top that suits a covered dish or a sandwich box. It stands in a footwell or a trunk bay. It is still a soft tote: it will not keep ice for a full day in July, and a leaking casserole will soak the liner. For drinks on a trailhead, the softer cooler tote is easier to carry.",
-    features: [
-      "About 14 × 9 × 12 in — measure the footwell or organizer bay",
-      "Fits a covered dish, sandwich box, or a small grocery cold-run",
-      "Not a multi-day ice chest; use ice packs, not loose ice",
-      "Wipe the liner after anything wet",
-    ],
-  },
-  {
+    {
     id: "tc-13",
     slug: "boot-base-organizer",
     name: "Boot Base Organizer",
@@ -436,26 +397,7 @@ export const products: Product[] = [
       "Shallow sides; not a sealed bin for liquids",
     ],
   },
-  {
-    id: "tc-23",
-    slug: "seat-gap-filler",
-    name: "Seat Gap Filler Duo",
-    price: 16,
-    group: "cabin",
-    shortDescription:
-      "Two foam fillers that plug the gap between the seat and centre console.",
-    scenario:
-      "The phone and a receipt disappear between the seat and the console on every drive.",
-    description:
-      "Two soft fillers push into the gap so phones and cards stop falling through. They work best on flat console walls; heavily sculpted seats may leave a gap at one end. They will not stop items falling beside a door sill, and they are not a child-seat accessory.",
-    features: [
-      "Pair of fillers; each about 12 in long",
-      "Plugs the seat-to-console gap on most cars",
-      "May leave a gap on heavily contoured seats",
-      "Not for door-side gaps or child seats",
-    ],
-  },
-  {
+    {
     id: "tc-24",
     slug: "trunk-hook-pair",
     name: "Trunk Hook Pair",
@@ -607,26 +549,7 @@ export const products: Product[] = [
       "May need extra tension on sloping SUV roofs",
     ],
   },
-  {
-    id: "tc-32",
-    slug: "led-cargo-light",
-    name: "LED Cargo Light Strip",
-    price: 22,
-    group: "packing",
-    shortDescription:
-      "USB LED strip for the hatch so you can see the spare and the bag at night.",
-    scenario:
-      "You cannot see the spare-tire well or the right bag after dark.",
-    description:
-      "A USB-powered LED strip that sticks or clips under the hatch lip for short night loads. It is for finding bags and the spare, not for working under the car. Bring a power bank or 12V USB adapter; it is not hard-wired.",
-    features: [
-      "USB powered; use a power bank or 12V USB adapter",
-      "Lights the cargo floor for short night loads",
-      "Not for under-car work or permanent hard-wiring",
-      "Adhesive/clip mount — clean the surface first",
-    ],
-  },
-  {
+    {
     id: "tc-33",
     slug: "umbrella-boot-clip",
     name: "Umbrella Boot Clip",

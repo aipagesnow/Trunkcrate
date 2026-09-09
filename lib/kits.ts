@@ -47,14 +47,14 @@ export const kits: Kit[] = [
   {
     slug: "family-road-kit",
     name: "Family Road Kit",
-    price: 114,
-    tagline: "Seat-back tidy, a kid organizer, a grocery bin, and an insulated tote.",
+    price: 122,
+    tagline: "Seat-back tidy, a kid organizer, a grocery bin, and a soft cooler.",
     scenario:
       "Crumbs in the seat gap, a sippy cup on the floor, and groceries that tipped on the first ramp.",
     description:
-      "Cabin clutter and trunk clutter are different jobs. This kit hangs snacks and wipes on the seat back, gives a second row a smaller tidy, and keeps grocery bags standing in the hatch next to an insulated tote for the cold stuff. It is for a sedan or crossover with rear seats, not a two-seater. If you only need the hatch, start with the Everyday Trunk Kit.",
+      "Cabin clutter and trunk clutter are different jobs. This kit hangs snacks and wipes on the seat back, gives a second row a smaller tidy, and keeps grocery bags standing in the hatch next to a soft cooler for the cold stuff. It is for a sedan or crossover with rear seats, not a two-seater. If you only need the hatch, start with the Everyday Trunk Kit.",
     features: [
-      "Includes seat-back organizer, kid seat tidy, grocery hold bin, and insulated food tote",
+      "Includes seat-back organizer, kid seat tidy, grocery hold bin, and soft cooler tote",
       "Seat-back hangs from most headrest posts — will not fit bucket seats without posts",
       "Grocery bin about 16 × 12 × 10 in; bags taller than that still tip",
       "Kid tidy is for small bottles and crayons, not a tablet with a thick case",
@@ -63,7 +63,7 @@ export const kits: Kit[] = [
       "seat-back-organizer",
       "kid-seat-tidy",
       "grocery-hold-bin",
-      "insulated-food-tote",
+      "soft-cooler-tote",
     ],
   },
   {

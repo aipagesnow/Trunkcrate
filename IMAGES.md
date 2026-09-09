@@ -42,3 +42,8 @@ Vision-audited remaining placeholder SKUs against `/workspace/trunkcrate-img-alt
 - **4 left as placeholder** (no clean near match): `insulated-food-tote`, `fold-flat-boot-crate`, `seat-gap-filler`, `led-cargo-light`
 - Report: `trunkcrate-near-remap.json`
 
+## Removed no-image SKUs (2026-09-09)
+
+Removed from catalog (no Flippa-clean photo): `fold-flat-boot-crate`, `insulated-food-tote`, `seat-gap-filler`, `led-cargo-light`.
+
+Family Road Kit now uses `soft-cooler-tote` instead of the insulated food tote (kit total $122).
