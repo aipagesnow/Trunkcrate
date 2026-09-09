@@ -1,0 +1,97 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f2f1ee;
+  --foreground: #1a1c1e;
+  --accent: #3d6b8c;
+  --accent-hover: #325873;
+  --accent-soft: #e4eaf0;
+  --muted: #5c656c;
+  --card: #ffffff;
+  --border: #d5d3ce;
+  --asphalt: #1a1c1e;
+  --steel: #3d6b8c;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-accent-soft: var(--accent-soft);
+  --color-muted: var(--muted);
+  --color-card: var(--card);
+  --color-border: var(--border);
+  --color-asphalt: var(--asphalt);
+  --color-steel: var(--steel);
+  --font-sans: var(--font-body);
+  --font-display: var(--font-display);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body), "IBM Plex Sans", system-ui, sans-serif;
+}
+
+.font-display {
+  font-family: var(--font-display), Archivo, "Barlow Semi Condensed",
+    "Arial Narrow", sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.site-wordmark {
+  font-family: var(--font-display), Archivo, "Barlow Semi Condensed",
+    "Arial Narrow", sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.header-wash {
+  background: linear-gradient(
+    100deg,
+    color-mix(in srgb, var(--background) 88%, white) 0%,
+    color-mix(in srgb, var(--accent-soft) 55%, var(--background)) 52%,
+    color-mix(in srgb, var(--background) 92%, var(--steel)) 100%
+  );
+  background-color: color-mix(in srgb, var(--background) 84%, transparent);
+}
+
+.hero-wash {
+  background: linear-gradient(
+    90deg,
+    color-mix(in srgb, var(--background) 92%, transparent) 0%,
+    color-mix(in srgb, var(--background) 62%, transparent) 38%,
+    color-mix(in srgb, var(--background) 18%, transparent) 68%,
+    transparent 100%
+  );
+}
+
+::selection {
+  background: #c5d4de;
+  color: #1a1c1e;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .hero-wash,
+  .header-wash {
+    animation: none !important;
+    transition: none !important;
+  }
+}
