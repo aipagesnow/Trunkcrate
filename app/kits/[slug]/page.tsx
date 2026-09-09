@@ -2,11 +2,15 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { AddToCartButton } from "@/components/AddToCartButton";
-import { ProductImage } from "@/components/ProductImage";
+import { KitGallery } from "@/components/KitGallery";
 import { ProductCard } from "@/components/ProductCard";
 import { formatUsd } from "@/lib/format";
 import { getAllKitSlugs, getKit } from "@/lib/kits";
-import { getIncludedProducts, getProduct } from "@/lib/products";
+import {
+  getIncludedProducts,
+  getKitPiecesTotal,
+  getProduct,
+} from "@/lib/products";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -33,6 +37,16 @@ export default async function KitPage({ params }: Props) {
 
   const product = getProduct(kit.slug);
   const included = getIncludedProducts(kit);
+  const kitPrice = getKitPiecesTotal(kit) || kit.price;
+
+  const galleryItems = [
+    { slug: kit.slug, name: kit.name, label: kit.name },
+    ...included.map((p) => ({
+      slug: p.slug,
+      name: p.name,
+      label: p.name,
+    })),
+  ];
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6">
@@ -45,12 +59,7 @@ export default async function KitPage({ params }: Props) {
       </nav>
 
       <div className="mt-8 grid gap-10 md:grid-cols-[1.15fr_1fr] md:items-start">
-        <ProductImage
-          slug={kit.slug}
-          name={kit.name}
-          className="aspect-[16/10]"
-          priority
-        />
+        <KitGallery items={galleryItems} priority />
         <div>
           <p className="text-[11px] font-semibold uppercase tracking-[0.14em] text-accent">
             Starter kit
@@ -59,7 +68,10 @@ export default async function KitPage({ params }: Props) {
             {kit.name}
           </h1>
           <p className="mt-3 text-2xl font-semibold text-foreground">
-            {formatUsd(kit.price)}
+            {formatUsd(kitPrice)}
+          </p>
+          <p className="mt-1 text-sm text-muted">
+            Price of the {included.length} pieces added to your cart.
           </p>
           <p className="mt-5 text-base leading-relaxed text-foreground">
             {kit.scenario}

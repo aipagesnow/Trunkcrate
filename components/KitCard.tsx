@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { ProductImage } from "@/components/ProductImage";
 import { formatUsd } from "@/lib/format";
-import { getIncludedProducts } from "@/lib/products";
+import { getIncludedProducts, getKitPiecesTotal } from "@/lib/products";
 import type { Kit } from "@/lib/types";
 
 export function KitCard({
@@ -12,6 +12,7 @@ export function KitCard({
   featured?: boolean;
 }) {
   const included = getIncludedProducts(kit);
+  const price = getKitPiecesTotal(kit) || kit.price;
 
   return (
     <Link
@@ -63,7 +64,7 @@ export function KitCard({
 
         <div className="flex items-center justify-between gap-3">
           <p className="text-lg font-semibold tabular-nums tracking-tight text-foreground">
-            {formatUsd(kit.price)}
+            {formatUsd(price)}
           </p>
           <span className="inline-flex items-center rounded-full bg-accent px-3.5 py-1.5 text-xs font-semibold tracking-wide text-white transition group-hover:bg-accent-hover">
             View kit

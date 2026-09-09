@@ -706,11 +706,14 @@ export const products: Product[] = [
 ];
 
 function kitAsProduct(kit: Kit): Product {
+  const pieceTotal = kit.includes
+    .map((slug) => products.find((p) => p.slug === slug)?.price ?? 0)
+    .reduce((sum, n) => sum + n, 0);
   return {
     id: `kit-${kit.slug}`,
     slug: kit.slug,
     name: kit.name,
-    price: kit.price,
+    price: pieceTotal > 0 ? pieceTotal : kit.price,
     group: "kits",
     featured: true,
     shortDescription: kit.tagline,
@@ -756,4 +759,8 @@ export function getIncludedProducts(kit: Kit): Product[] {
   return kit.includes
     .map((slug) => getProduct(slug))
     .filter((p): p is Product => Boolean(p));
+}
+
+export function getKitPiecesTotal(kit: Kit): number {
+  return getIncludedProducts(kit).reduce((sum, p) => sum + p.price, 0);
 }

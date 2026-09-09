@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { useCart } from "@/components/cart/CartProvider";
+import { formatUsd } from "@/lib/format";
 import { getProduct } from "@/lib/products";
 import { getShopifyVariantId } from "@/lib/shopify";
 import type { Product } from "@/lib/types";
@@ -63,8 +64,8 @@ export function AddToCartButton({ product }: { product: Product }) {
       </button>
       {product.group === "kits" && canCheckout && (
         <p className="mt-2 text-sm text-muted">
-          Adds the {pieces.length} pieces in this kit to your cart for
-          checkout.
+          Adds the {pieces.length} pieces to your cart (
+          {formatUsd(pieces.reduce((sum, p) => sum + p.price, 0))}).
         </p>
       )}
       {error && (

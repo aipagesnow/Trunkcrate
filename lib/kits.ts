@@ -4,7 +4,7 @@ export const kits: Kit[] = [
   {
     slug: "weekend-trip-kit",
     name: "Weekend Trip Kit",
-    price: 89,
+    price: 106,
     tagline: "Cubes, a standing organizer, and a cooler for one overnight in the hatch.",
     scenario:
       "Two overnight bags, a grocery stop, and a cooler that used to roll into the wheel well.",
@@ -25,7 +25,7 @@ export const kits: Kit[] = [
   {
     slug: "camping-boot-kit",
     name: "Camping Boot Kit",
-    price: 119,
+    price: 144,
     tagline: "A folding crate, floor organizer, cargo net, and cooler for a trailhead load.",
     scenario:
       "Sleeping pads, a stove bag, and boots that used to migrate under the cooler every time you braked.",
@@ -47,7 +47,7 @@ export const kits: Kit[] = [
   {
     slug: "family-road-kit",
     name: "Family Road Kit",
-    price: 99,
+    price: 114,
     tagline: "Seat-back tidy, a kid organizer, a grocery bin, and an insulated tote.",
     scenario:
       "Crumbs in the seat gap, a sippy cup on the floor, and groceries that tipped on the first ramp.",
@@ -69,7 +69,7 @@ export const kits: Kit[] = [
   {
     slug: "everyday-trunk-kit",
     name: "Everyday Trunk Kit",
-    price: 79,
+    price: 98,
     tagline: "Organizer, grocery bin, and cargo net for the hatch you use every week.",
     scenario:
       "A jumper-cable bag, two grocery runs, and a ball that rolls the length of the boot.",
