@@ -140,7 +140,8 @@ export function CartPanel({
           </span>
         </div>
         <p className="mt-3 text-sm leading-relaxed text-muted">
-          Taxes and shipping calculated at checkout.
+          Taxes and shipping calculated at checkout. Payment runs on Shopify’s
+          hosted checkout.
         </p>
         {checkout.ok ? (
           <a

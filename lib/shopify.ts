@@ -1,7 +1,9 @@
 import variantMap from "@/lib/shopify-variant-map.json";
 
+/** Real storefront host. Empty/blank env must not win over the default (Jude: https:///cart/...). */
 export const SHOPIFY_STORE_DOMAIN =
-  process.env.NEXT_PUBLIC_SHOPIFY_STORE_DOMAIN ?? "dfw4z0-gs.myshopify.com";
+  process.env.NEXT_PUBLIC_SHOPIFY_STORE_DOMAIN?.trim() ||
+  "dfw4z0-gs.myshopify.com";
 
 /** slug → Shopify variant id (first variant per product) */
 export const shopifyVariantIds: Record<string, number> = variantMap;
