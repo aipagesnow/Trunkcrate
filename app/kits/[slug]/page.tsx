@@ -39,14 +39,12 @@ export default async function KitPage({ params }: Props) {
   const included = getIncludedProducts(kit);
   const kitPrice = getKitPiecesTotal(kit) || kit.price;
 
-  const galleryItems = [
-    { slug: kit.slug, name: kit.name, label: kit.name },
-    ...included.map((p) => ({
-      slug: p.slug,
-      name: p.name,
-      label: p.name,
-    })),
-  ];
+  // Piece photos only — kit hero files are copies of the first include today.
+  const galleryItems = included.map((p) => ({
+    slug: p.slug,
+    name: p.name,
+    label: p.name,
+  }));
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6">

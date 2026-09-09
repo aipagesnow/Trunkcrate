@@ -17,14 +17,18 @@ type Props = {
 };
 
 export function KitGallery({ items, priority = false }: Props) {
-  const slides = useMemo(
-    () =>
-      items.map((item) => ({
-        ...item,
-        src: resolveCatalogImagePath(item.slug),
-      })),
-    [items],
-  );
+  const slides = useMemo(() => {
+    const seen = new Set<string>();
+    const next: Array<KitGalleryItem & { src: string | null }> = [];
+    for (const item of items) {
+      const src = resolveCatalogImagePath(item.slug);
+      const key = src || `missing:${item.slug}`;
+      if (seen.has(key)) continue;
+      seen.add(key);
+      next.push({ ...item, src });
+    }
+    return next;
+  }, [items]);
 
   const [active, setActive] = useState(0);
   const current = slides[active] ?? slides[0];
