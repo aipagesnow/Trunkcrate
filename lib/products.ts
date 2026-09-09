@@ -360,6 +360,349 @@ export const products: Product[] = [
       "Leave a little loft; do not crush gear with electronics in the pockets",
     ],
   },
+  {
+    id: "tc-19",
+    slug: "cargo-divider-bar",
+    name: "Cargo Divider Bar",
+    price: 29,
+    group: "crates",
+    shortDescription:
+      "Telescopic bar that keeps a crate or cooler from sliding across the cargo floor.",
+    scenario:
+      "One hard brake and the cooler slides into the seatbacks.",
+    description:
+      "The bar springs between the side walls of the cargo area so a cooler or crate stays in its bay. Twist-lock ends grip painted metal better than soft plastic trim. It will not replace a full cargo net for jackets and chairs, and it needs nearly parallel side walls — many hatchbacks with tapered rears will not hold it.",
+    features: [
+      "Adjustable length about 28–43 in — measure wall-to-wall first",
+      "Holds a cooler or crate from sliding forward on a stop",
+      "Will not pin soft bags or jackets on their own",
+      "Needs firm side walls; skips plastic trim that flexes",
+    ],
+  },
+  {
+    id: "tc-20",
+    slug: "non-slip-boot-mat",
+    name: "Non-Slip Boot Mat",
+    price: 26,
+    group: "packing",
+    shortDescription:
+      "Rubber-backed mat that stops crates and bags skating on a smooth cargo floor.",
+    scenario:
+      "Everything looks tidy until the first roundabout.",
+    description:
+      "A grippy mat under organizers and soft bags keeps them from skating on painted or plastic floors. Cut or fold the edges if your spare-tire cover sits proud. It will not waterproof a wet load — use the waterproof seat cover or a liner for muddy boots — and it will bunch on steeply sloped sedan floors.",
+    features: [
+      "About 40 × 30 in; trim or fold to fit your floor",
+      "Helps crates and bags stay put on smooth hatch floors",
+      "Not a waterproof liner for mud or melted ice",
+      "Works best on flat floors; bunches on steep spare humps",
+    ],
+  },
+  {
+    id: "tc-21",
+    slug: "backseat-cooler-organizer",
+    name: "Backseat Cooler Organizer",
+    price: 34,
+    group: "coolers",
+    shortDescription:
+      "Soft cooler with seat straps so drinks stay behind the front seats, not in the boot.",
+    scenario:
+      "You want cold drinks within reach without opening the hatch every stop.",
+    description:
+      "Straps loop over the headrest posts so the cooler sits on the rear bench. Soft insulation holds a day of drinks with ice packs; it is not a hard cooler for a multi-day camp. If your rear seats lack posts, or you need the whole bench for passengers, use the soft cooler tote in the boot instead.",
+    features: [
+      "Fits headrest posts about 4–7 in apart",
+      "Holds drinks and snacks for a day trip with ice packs",
+      "Will not replace a hard cooler for multi-day ice",
+      "Needs rear headrest posts; skips most captain chairs with screens",
+    ],
+  },
+  {
+    id: "tc-22",
+    slug: "console-catch-all",
+    name: "Console Catch-All Tray",
+    price: 18,
+    group: "cabin",
+    shortDescription:
+      "Small tray for coins, keys, and the charging cable that usually ends up in the cup holder.",
+    scenario:
+      "The cup holder is full of keys and the cable you need is under the seat.",
+    description:
+      "A shallow tray that sits in or beside the centre console so small items stay visible. Soft-touch edges keep coins from rattling as much as a hard plastic bin. It will not hold a large phone in a thick case, and it is not sized for every console — check the footprint against your cup-holder area first.",
+    features: [
+      "About 6 × 4 in tray — measure your console well",
+      "Fits keys, coins, a thin cable, and lip balm",
+      "Will not swallow a large phone in a rugged case",
+      "Shallow sides; not a sealed bin for liquids",
+    ],
+  },
+  {
+    id: "tc-23",
+    slug: "seat-gap-filler",
+    name: "Seat Gap Filler Duo",
+    price: 16,
+    group: "cabin",
+    shortDescription:
+      "Two foam fillers that plug the gap between the seat and centre console.",
+    scenario:
+      "The phone and a receipt disappear between the seat and the console on every drive.",
+    description:
+      "Two soft fillers push into the gap so phones and cards stop falling through. They work best on flat console walls; heavily sculpted seats may leave a gap at one end. They will not stop items falling beside a door sill, and they are not a child-seat accessory.",
+    features: [
+      "Pair of fillers; each about 12 in long",
+      "Plugs the seat-to-console gap on most cars",
+      "May leave a gap on heavily contoured seats",
+      "Not for door-side gaps or child seats",
+    ],
+  },
+  {
+    id: "tc-24",
+    slug: "trunk-hook-pair",
+    name: "Trunk Hook Pair",
+    price: 14,
+    group: "nets",
+    shortDescription:
+      "Two cargo hooks for bags that need a hang point when the hatch has none.",
+    scenario:
+      "Grocery bags tip over because the hatch has nowhere to clip a net.",
+    description:
+      "Two hooks mount to existing cargo loops or screw points so you can hang bags or clip a net. They are for light grocery loads, not a bike or a tool chest. If your hatch already has four solid hooks, buy the hatch cargo net instead.",
+    features: [
+      "Pair of hooks; check your cargo loop style before ordering",
+      "Hang grocery bags or clip a light net",
+      "Not rated for bikes, tool chests, or pet tethers",
+      "Needs existing loops or approved mount points",
+    ],
+  },
+  {
+    id: "tc-25",
+    slug: "soft-trunk-storage-bag",
+    name: "Soft Trunk Storage Bag",
+    price: 36,
+    group: "crates",
+    shortDescription:
+      "Zippered soft bag for boots and spare clothes that still collapses when empty.",
+    scenario:
+      "Muddy shoes and a change of clothes need a closed bag, not an open crate.",
+    description:
+      "A zippered soft bag keeps boots and spare clothes contained without the bulk of a hard crate. Side handles make it easy to lift out at the destination. It will not stand open like a three-bay organizer for groceries, and it is not waterproof if you leave it in a flooded hatch.",
+    features: [
+      "About 22 × 14 × 12 in packed; collapses when empty",
+      "Holds boots, a change of clothes, and a soft cooler",
+      "Will not stand grocery bags like a bay organizer",
+      "Water-resistant fabric, not a dry bag for standing water",
+    ],
+  },
+  {
+    id: "tc-26",
+    slug: "car-trash-bin",
+    name: "Car Trash Bin",
+    price: 18,
+    group: "cabin",
+    shortDescription:
+      "Hanging bin for wrappers and tissues so they stop collecting in the door pocket.",
+    scenario:
+      "The door pocket is full of wrappers and there is nowhere for a tissue.",
+    description:
+      "A small hanging bin that clips to a headrest or seatback so rubbish stays in one place. Lined for easy empty; it is for wrappers and tissues, not food waste on a hot day. It will not fit every seat shape — check the clip against your headrest post.",
+    features: [
+      "Clips to most headrest posts or seatbacks",
+      "Sized for wrappers, tissues, and small rubbish",
+      "Not for food waste left in a hot car",
+      "Check clip fit; some captain chairs block the mount",
+    ],
+  },
+  {
+    id: "tc-27",
+    slug: "mesh-grocery-bag-set",
+    name: "Mesh Grocery Bag Set",
+    price: 15,
+    group: "packing",
+    shortDescription:
+      "Three mesh bags that stand in a trunk organizer instead of plastic that tips.",
+    scenario:
+      "Thin plastic bags tip and spill as soon as you close the hatch.",
+    description:
+      "Three reusable mesh bags with stiff bases so they stand in organizer bays. They fold small when empty. They will not replace a cooler for cold food, and heavy glass bottles still need a bay with a firm wall.",
+    features: [
+      "Set of three; each folds flat when empty",
+      "Stiff base helps bags stand in organizer bays",
+      "Not insulated — cold food still needs a cooler",
+      "Heavy glass bottles need a firm bay wall",
+    ],
+  },
+  {
+    id: "tc-28",
+    slug: "ice-pack-brick-duo",
+    name: "Ice Pack Brick Duo",
+    price: 14,
+    group: "coolers",
+    shortDescription:
+      "Two hard ice bricks that fit flat in soft coolers without soaking the food.",
+    scenario:
+      "Loose ice melts into a puddle under the sandwiches.",
+    description:
+      "Two hard bricks freeze flat and sit beside food instead of drowning it. They work in the soft cooler tote and the backseat cooler. They will not keep a soft cooler cold for multi-day trips the way block ice in a hard cooler can.",
+    features: [
+      "Pair of hard bricks; freeze flat overnight",
+      "Fits soft cooler tote and backseat cooler",
+      "Not a substitute for block ice on multi-day trips",
+      "Do not puncture; rinse and refreeze",
+    ],
+  },
+  {
+    id: "tc-29",
+    slug: "waterproof-seat-cover",
+    name: "Waterproof Seat Cover",
+    price: 38,
+    group: "packing",
+    shortDescription:
+      "Waterproof cover for muddy boots or a wet dog on the rear bench.",
+    scenario:
+      "Muddy boots and a wet dog turn the rear seat into a towel day.",
+    description:
+      "A waterproof cover that drapes the rear bench and catches mud and wet fur. Side flaps tuck into the seat gaps on most cars. It will not fit every captain-chair layout, and it is not a crash-rated pet restraint — use a harness or crate for that.",
+    features: [
+      "Fits most 40/60 and 60/40 rear benches — measure seat width",
+      "Catches mud, wet fur, and damp boots",
+      "May not fit captain chairs or seats with built-in belts oddly placed",
+      "Not a pet crash restraint",
+    ],
+  },
+  {
+    id: "tc-30",
+    slug: "camping-boot-bag",
+    name: "Camping Boot Bag",
+    price: 42,
+    group: "packing",
+    shortDescription:
+      "Tall zip bag for hiking boots and damp kit that would wreck a soft duffel.",
+    scenario:
+      "Muddy boots and damp socks share a bag with clean clothes.",
+    description:
+      "A tall zip bag keeps hiking boots and damp layers away from clean clothes. Reinforced base takes wet soles better than a thin packing cube. It will not replace a waterproof dry bag for river crossings, and it is bulky when full — plan boot space in the hatch.",
+    features: [
+      "Tall zip bag sized for a pair of hiking boots plus damp layers",
+      "Reinforced base for wet soles",
+      "Not a sealed dry bag for submersion",
+      "Bulky when full — leave hatch room",
+    ],
+  },
+  {
+    id: "tc-31",
+    slug: "pet-cargo-barrier-net",
+    name: "Pet Cargo Barrier Net",
+    price: 35,
+    group: "nets",
+    shortDescription:
+      "Mesh barrier that keeps a dog in the cargo area instead of climbing the seatbacks.",
+    scenario:
+      "The dog climbs the seatbacks the moment the hatch closes.",
+    description:
+      "A mesh barrier that mounts behind the rear seats so a dog stays in the cargo area. Adjustable straps fit many hatchbacks; measure height to the headliner. It is not a crash-tested crate, and it will not fit every SUV with a sloping roof without slack.",
+    features: [
+      "Adjustable straps — measure cargo opening height first",
+      "Keeps most medium dogs from climbing seatbacks",
+      "Not a crash-tested pet crate or harness",
+      "May need extra tension on sloping SUV roofs",
+    ],
+  },
+  {
+    id: "tc-32",
+    slug: "led-cargo-light",
+    name: "LED Cargo Light Strip",
+    price: 22,
+    group: "packing",
+    shortDescription:
+      "USB LED strip for the hatch so you can see the spare and the bag at night.",
+    scenario:
+      "You cannot see the spare-tire well or the right bag after dark.",
+    description:
+      "A USB-powered LED strip that sticks or clips under the hatch lip for short night loads. It is for finding bags and the spare, not for working under the car. Bring a power bank or 12V USB adapter; it is not hard-wired.",
+    features: [
+      "USB powered; use a power bank or 12V USB adapter",
+      "Lights the cargo floor for short night loads",
+      "Not for under-car work or permanent hard-wiring",
+      "Adhesive/clip mount — clean the surface first",
+    ],
+  },
+  {
+    id: "tc-33",
+    slug: "umbrella-boot-clip",
+    name: "Umbrella Boot Clip",
+    price: 12,
+    group: "cabin",
+    shortDescription:
+      "Clip that keeps a wet umbrella off the seat and out of the footwell.",
+    scenario:
+      "A wet umbrella soaks the seat every time it rains.",
+    description:
+      "A simple clip that holds a folded umbrella against a seatback or cargo wall so drips stay off the fabric. It is for a compact umbrella, not a golf umbrella. Check the clip against your seat material so it does not mark leather.",
+    features: [
+      "Holds a compact folded umbrella",
+      "Keeps drips off the seat fabric",
+      "Not for full-size golf umbrellas",
+      "Test on leather before long trips",
+    ],
+  },
+  {
+    id: "tc-34",
+    slug: "multi-bay-lid-organizer",
+    name: "Multi-Bay Lid Organizer",
+    price: 46,
+    group: "crates",
+    shortDescription:
+      "Four-bay organizer with lids so small parts stay in their bay on rough roads.",
+    scenario:
+      "Small parts jump bays every time you hit a rough road.",
+    description:
+      "Four fabric bays with lids keep small tools, cables, and snacks from jumping into one pile. Heavier than an open three-bay organizer, so measure hatch height. It will not replace a hard crate for wet or sharp gear.",
+    features: [
+      "Four lidded bays; open size about 26 × 14 × 12 in",
+      "Keeps small parts from jumping bays",
+      "Taller than open organizers — measure hatch height",
+      "Not for wet tarps or sharp tools that cut fabric",
+    ],
+  },
+  {
+    id: "tc-35",
+    slug: "folding-picnic-blanket",
+    name: "Folding Picnic Blanket Tote",
+    price: 28,
+    group: "packing",
+    shortDescription:
+      "Blanket that folds into its own tote for roadside stops and boot-floor picnics.",
+    scenario:
+      "You need a clean surface for a roadside stop without packing a full camp kit.",
+    description:
+      "A picnic blanket that folds into a small tote you can stash beside a cooler. Water-resistant underside helps on damp grass; it is not a groundsheet for heavy rain. Too bulky to leave unfolded under a crate all week.",
+    features: [
+      "Folds into its own tote for the hatch",
+      "Water-resistant underside for damp grass",
+      "Not a heavy-rain groundsheet",
+      "Pack away when using the full cargo floor",
+    ],
+  },
+  {
+    id: "tc-36",
+    slug: "tire-well-tray",
+    name: "Tire Well Organizer Tray",
+    price: 24,
+    group: "crates",
+    shortDescription:
+      "Shallow tray that uses the spare-tire well for the kit you want out of sight.",
+    scenario:
+      "The spare-tire well is empty space while the cargo floor is a mess.",
+    description:
+      "A shallow tray that sits in the spare-tire well for the kit you want hidden — jumper cables, a hi-vis vest, a small tool pouch. Measure the well diameter first; many temporary spares leave an odd shape. It will not hold a full-size spare on top of itself.",
+    features: [
+      "Shallow tray — measure spare-well diameter first",
+      "Hides jumper cables, vest, and a small tool pouch",
+      "May not fit temporary-spare wells with odd shapes",
+      "Not a mount for a second spare",
+    ],
+  },
+
 ];
 
 function kitAsProduct(kit: Kit): Product {
