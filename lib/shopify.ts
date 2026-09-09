@@ -1,7 +1,7 @@
 import variantMap from "@/lib/shopify-variant-map.json";
 
 export const SHOPIFY_STORE_DOMAIN =
-  process.env.NEXT_PUBLIC_SHOPIFY_STORE_DOMAIN ?? "trunkcrate.myshopify.com";
+  process.env.NEXT_PUBLIC_SHOPIFY_STORE_DOMAIN ?? "dfw4z0-gs.myshopify.com";
 
 /** slug → Shopify variant id (first variant per product) */
 export const shopifyVariantIds: Record<string, number> = variantMap;
