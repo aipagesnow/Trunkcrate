@@ -1,0 +1,25 @@
+# Trunk Crate product images
+
+## Flippa rule (2026-09-09)
+
+Supplier shots with **watermarks**, **dimension overlays**, marketplace collages, or third-party brand patches must not ship on PDPs/shop cards.
+
+Those SKUs use the branded **Photo coming soon** placeholder until clean packshots or honest lifestyle photos are ready.
+
+## Currently mapped (kept after scrub)
+
+See `lib/product-image-map.json` — only clean / generic-but-ok shots.
+
+## Scrubbed (placeholder until replaced)
+
+- soft-cooler-tote, insulated-food-tote (BEECHIP)
+- non-slip-boot-mat (NovaAcc)
+- boot-base-organizer, multi-bay-lid-organizer (size overlays)
+- fold-flat-boot-crate, soft-trunk-storage-bag (dim arrows)
+- grocery-hold-bin, folding-camp-crate, camping-boot-kit
+- envelope-trunk-net, pet-cargo-barrier-net, seat-gap-filler
+- car-trash-bin, waterproof-boot-liner, trunk-lid-net
+- led-cargo-light, camping-boot-bag, compression-cube-set
+- trunk-hook-pair, folding-picnic-blanket (4monster), kid-seat-tidy
+
+Raw supplier files may still sit under `public/images/products/` for Ops reference; they are not linked from the map.
