@@ -33,3 +33,12 @@ Pulled from Exact AE product galleries (no watermark/dims):
 - folding-camp-crate (+ camping-boot-kit)
 
 Remaining scrubbed SKUs still placeholder — Exact supplier frames are watermarked/annotated only. Need Near remap to clean listings or lifestyle shoots.
+
+## Near-remap pass (2026-09-09)
+
+Vision-audited remaining placeholder SKUs against `/workspace/trunkcrate-img-alts` and search-cache thumbs (`trunkcrate-near-cache-dl`). Flippa rule unchanged: no watermarks, cm/dimension overlays, size-text banners, marketplace collages, or third-party brand patches. **No AI packshots.**
+
+- **14 remapped** to clean AE photos → `public/images/products/<slug>.jpg` + `lib/product-image-map.json`
+- **4 left as placeholder** (no clean near match): `insulated-food-tote`, `fold-flat-boot-crate`, `seat-gap-filler`, `led-cargo-light`
+- Report: `trunkcrate-near-remap.json`
+

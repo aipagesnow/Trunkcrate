@@ -1,0 +1,176 @@
+{
+  "audited_at": "2026-09-09T19:20:00+01:00",
+  "rule": "Flippa-clean near remap: reject watermarks, cm/dimension arrows, size-text overlays, AE/marketplace collages, brand patches. No AI packshots.",
+  "sources": [
+    "/workspace/trunkcrate-img-alts",
+    "/workspace/ops-desk/data/trunkcrate-cache",
+    "/workspace/trunkcrate-near-cache-dl"
+  ],
+  "remapped": [
+    {
+      "handle": "soft-cooler-tote",
+      "itemId": "1005012414431567",
+      "aeUrl": "https://www.aliexpress.com/item/1005012414431567.html",
+      "title": "Insulated Thermal Bag Reusable Picnic Grocery Bag Cooler Tote for Hot Cold",
+      "source": "search-cache",
+      "srcPath": "/workspace/trunkcrate-near-cache-dl/soft-cooler-tote/cache9_1005012414431567_decoded.jpg",
+      "destPath": "/images/products/soft-cooler-tote.jpg",
+      "note": "Unbranded royal-blue insulated tote packshot; no watermark/dims/brand patch"
+    },
+    {
+      "handle": "non-slip-boot-mat",
+      "itemId": "1005010043559298",
+      "aeUrl": "https://www.aliexpress.com/item/1005010043559298.html",
+      "title": "120x100cm Car Trunk Anti-Slip Flexible Mat For Car Roof Trunk For Suv Rear",
+      "source": "search-cache",
+      "srcPath": "/workspace/trunkcrate-near-cache-dl/non-slip-boot-mat/cache8_1005010043559298.jpg",
+      "destPath": "/images/products/non-slip-boot-mat.jpg",
+      "note": "Clean black PVC mesh grip mat roll packshot; no overlays"
+    },
+    {
+      "handle": "boot-base-organizer",
+      "itemId": "1005011837987740",
+      "aeUrl": "https://www.aliexpress.com/item/1005011837987740.html",
+      "title": "Car Trunk Organizer with Built-in Pocket for Truck SUV RV Sedan Auto Interior",
+      "source": "search-cache",
+      "srcPath": "/workspace/trunkcrate-near-cache-dl/boot-base-organizer/cache5_1005011837987740_decoded.jpg",
+      "destPath": "/images/products/boot-base-organizer.jpg",
+      "note": "Open-top off-white/black-trim organizer packshot; no size text or brand patch"
+    },
+    {
+      "handle": "soft-trunk-storage-bag",
+      "itemId": "1005013057013650",
+      "aeUrl": "https://www.aliexpress.com/item/1005013057013650.html",
+      "title": "Golf Trunk Organizer Oxford Shoe Compartment Waterproof Larg",
+      "source": "img-alts",
+      "srcPath": "/workspace/trunkcrate-img-alts/soft-trunk-storage-bag/alt0_1005013057013650.jpg",
+      "destPath": "/images/products/soft-trunk-storage-bag.jpg",
+      "note": "Black honeycomb zippered soft trunk bag with side mesh; no overlays"
+    },
+    {
+      "handle": "grocery-hold-bin",
+      "itemId": "1005009843335071",
+      "aeUrl": "https://www.aliexpress.com/item/1005009843335071.html",
+      "title": "Environmentally Friendly Foldable Large Capacity Car Trunk Storage Box Wear",
+      "source": "search-cache",
+      "srcPath": "/workspace/trunkcrate-near-cache-dl/fold-flat-boot-crate/cache6_1005009843335071_decoded.jpg",
+      "destPath": "/images/products/grocery-hold-bin.jpg",
+      "note": "Open-top black multi-bay trunk organizer; near match for standing grocery bags"
+    },
+    {
+      "handle": "envelope-trunk-net",
+      "itemId": "1005008310551349",
+      "aeUrl": "https://www.aliexpress.com/item/1005008310551349.html",
+      "title": "Car Trunk Net Elastic Luggage Net Cargo Organizer Storage For Chevy Silvera",
+      "source": "search-cache",
+      "srcPath": "/workspace/trunkcrate-near-cache-dl/envelope-trunk-net/cache5_1005008310551349_decoded.jpg",
+      "destPath": "/images/products/envelope-trunk-net.jpg",
+      "note": "Black mesh cargo net + carabiners packshot; no cm overlays"
+    },
+    {
+      "handle": "pet-cargo-barrier-net",
+      "itemId": "1005012583234155",
+      "aeUrl": "https://www.aliexpress.com/item/1005012583234155.html",
+      "title": "Dog Car Barrier Double Layer Mesh Adjustable Top and Bottom Strap Pet Barrier",
+      "source": "img-alts",
+      "srcPath": "/workspace/trunkcrate-img-alts/pet-cargo-barrier-net/alt0_1005012583234155.jpg",
+      "destPath": "/images/products/pet-cargo-barrier-net.jpg",
+      "note": "Clean double-layer mesh barrier with straps; no marketing text/dims"
+    },
+    {
+      "handle": "car-trash-bin",
+      "itemId": "1005007139127233",
+      "aeUrl": "https://www.aliexpress.com/item/1005007139127233.html",
+      "title": "Car Trash Can Leak-Proof Waterproof Collapsible Pop Up Trash Bag For Car",
+      "source": "search-cache",
+      "srcPath": "/workspace/trunkcrate-near-cache-dl/car-trash-bin/cache1_1005007139127233.jpg",
+      "destPath": "/images/products/car-trash-bin.jpg",
+      "note": "Clean black collapsible pop-up trash bin packshot; no brand/dims"
+    },
+    {
+      "handle": "waterproof-boot-liner",
+      "itemId": "1005012212446557",
+      "aeUrl": "https://www.aliexpress.com/item/1005012212446557.html",
+      "title": "Waterproof Car Trunk Pet Mat, Anti-Scratch Cargo Liner for D",
+      "source": "img-alts",
+      "srcPath": "/workspace/trunkcrate-img-alts/waterproof-boot-liner/alt1_1005012212446557.jpg",
+      "destPath": "/images/products/waterproof-boot-liner.jpg",
+      "note": "Quilted black cargo liner packshot with headrest straps; no watermark/dims"
+    },
+    {
+      "handle": "trunk-lid-net",
+      "itemId": "1005012950373359",
+      "aeUrl": "https://www.aliexpress.com/item/1005012950373359.html",
+      "title": "Car Trunk Organizer Net UV Car Accessories for Protection Pi",
+      "source": "img-alts",
+      "srcPath": "/workspace/trunkcrate-img-alts/trunk-lid-net/alt4_1005012950373359_decoded.jpg",
+      "destPath": "/images/products/trunk-lid-net.jpg",
+      "note": "Webbing cargo net kit with carabiners and ball bungees; no size overlay"
+    },
+    {
+      "handle": "compression-cube-set",
+      "itemId": "1005012407279177",
+      "aeUrl": "https://www.aliexpress.com/item/1005012407279177.html",
+      "title": "3 pcs/set Polyester Travel Compression Packing Cubes Compres",
+      "source": "img-alts",
+      "srcPath": "/workspace/trunkcrate-img-alts/compression-cube-set/alt4_1005012407279177.png",
+      "destPath": "/images/products/compression-cube-set.jpg",
+      "note": "Stacked black ripstop packing cubes packshot; no before/after collage"
+    },
+    {
+      "handle": "trunk-hook-pair",
+      "itemId": "1005005005189441",
+      "aeUrl": "https://www.aliexpress.com/item/1005005005189441.html",
+      "title": "2Pcs Front Trunk Hook ABS For Tesla Model Y Hanger Grocery B",
+      "source": "img-alts",
+      "srcPath": "/workspace/trunkcrate-img-alts/trunk-hook-pair/alt1_1005005005189441_decoded.jpg",
+      "destPath": "/images/products/trunk-hook-pair.jpg",
+      "note": "Lifestyle detail of trunk hook holding grocery bag; no text/collage"
+    },
+    {
+      "handle": "folding-picnic-blanket",
+      "itemId": "1005007854414450",
+      "aeUrl": "https://www.aliexpress.com/item/1005007854414450.html",
+      "title": "Waterproof Picnic Blanket, 200x200CM Large Beach Blanket Out",
+      "source": "img-alts",
+      "srcPath": "/workspace/trunkcrate-img-alts/folding-picnic-blanket/alt1_1005007854414450.jpg",
+      "destPath": "/images/products/folding-picnic-blanket.jpg",
+      "note": "Quilted picnic blanket unfolded + rolled carry view; no brand patch"
+    },
+    {
+      "handle": "kid-seat-tidy",
+      "itemId": "1005012591659435",
+      "aeUrl": "https://www.aliexpress.com/item/1005012591659435.html",
+      "title": "Tactical Car Seat Organizer with Multiple Pockets, Durable N",
+      "source": "img-alts",
+      "srcPath": "/workspace/trunkcrate-img-alts/kid-seat-tidy/alt4_1005012591659435.jpg",
+      "destPath": "/images/products/kid-seat-tidy.jpg",
+      "note": "Black multi-pocket seat-back tidy packshot; no 1/2 Pack badge or dims"
+    }
+  ],
+  "unmatchable_placeholder": [
+    {
+      "handle": "insulated-food-tote",
+      "reason": "All alts/cache thumbs have brand patches, cartoon prints, dims, or wrong product type"
+    },
+    {
+      "handle": "fold-flat-boot-crate",
+      "reason": "No clean plastic-panel fold crate; all candidates have size banners, STORAGE BOX branding, or wrong type"
+    },
+    {
+      "handle": "seat-gap-filler",
+      "reason": "Search thumbs polluted (crate handles) or marketplace collages/dims; no clean foam gap-plug packshot"
+    },
+    {
+      "handle": "led-cargo-light",
+      "reason": "All strip/lifestyle thumbs carry length/color marketing overlays or AE banners"
+    }
+  ],
+  "counts": {
+    "placeholder_before": 18,
+    "remapped": 14,
+    "still_placeholder": 4,
+    "already_mapped_before_pass": 22,
+    "mapped_after": 36
+  }
+}
