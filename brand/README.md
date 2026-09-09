@@ -1,6 +1,6 @@
 # Trunk Crate brand lock — Open Crate
 
-**Mark:** Option B Open Crate (locked 2026-09-09 — corrected from Hatch Latch)
+**Mark:** Option B Open Crate (locked 2026-09-09)
 **Wordmark:** Archivo or Barlow Semi Condensed 700, title case, tracking −0.02em
 
 ## Tokens
@@ -29,3 +29,6 @@ Copy from `drop-into-public/` → `public/`:
 - `png/checkout-mono-32.png` / `checkout-mono-180.png` — Shopify checkout
 - `png/header-mark-colour-180.png` — colour header mark
 - `png/lockup-header-colour.png` — colour lockup PNG
+- `png/open-crate-colour-*.png` / `png/open-crate-mono-*.png` — sized marks
+
+**Canonical mark is Open Crate only.** Do not wire any other mark from git history.
